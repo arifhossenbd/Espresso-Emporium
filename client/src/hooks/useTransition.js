@@ -1,0 +1,1 @@
+export const useTransition = `transition-all duration-500 linear`;

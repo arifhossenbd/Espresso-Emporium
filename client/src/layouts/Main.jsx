@@ -4,14 +4,22 @@ import Footer from "../component/Footer/Footer";
 import Banner from "../component/Banner/Banner";
 
 const Main = () => {
-    return (
-        <div>
-            <Navbar/>
-            <Banner/>
-            <Outlet/>
-            <Footer/>
-        </div>
-    );
+  return (
+    <div>
+      <nav>
+        <Navbar />
+      </nav>
+      <header>
+        <Banner />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
 };
 
 export default Main;
